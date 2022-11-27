@@ -25,7 +25,6 @@ function findMinMax(...arr){
 
                 //   2) вариант
 
-
  const findMinMax2 = (...numbers) => ([Math.min(...numbers),Math.max(...numbers)]);
 
  console.log(findMinMax2(...arrNumbers2));
